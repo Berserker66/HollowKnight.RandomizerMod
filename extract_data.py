@@ -3,8 +3,8 @@ import os
 from pprint import pformat
 from jinja2 import Template
 
-HK_ID_OFFSET = 0x100000000
-HK_LOC_ID_OFFSET = 0x110000000
+HK_ID_OFFSET = 0x1000000
+HK_LOC_ID_OFFSET = 0x1100000
 
 parser = etree.XMLParser(remove_comments=True)
 tree = etree.XML(open(os.path.join("RandomizerLib3.0", "Resources", "items.xml")).read(), parser=parser)
