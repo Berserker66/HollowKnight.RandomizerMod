@@ -774,7 +774,7 @@ namespace RandomizerLib
                     case -4:
                         stack.Push(obtained[grubIndex] >= cost + grubTolerance(settings));
                         break;
-                    // 200ESSENCE -- the Resting Grounds door
+                    // ESSENCE200 -- the Resting Grounds door
                     case -5:
                         stack.Push(obtained[essenceIndex] >= 200 + essenceTolerance(settings));
                         break;
@@ -1032,7 +1032,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + itemName + 
@@ -1053,7 +1053,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + itemName +
@@ -1074,7 +1074,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + itemName +
@@ -1100,7 +1100,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + shopName +
@@ -1121,7 +1121,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + shopName +
@@ -1142,7 +1142,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + shopName +
@@ -1169,7 +1169,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + transitionName +
@@ -1197,7 +1197,7 @@ namespace RandomizerLib
                     else if (infix[i] == "+") postfix.Add((-2, 0));
                     else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                     else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                    else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                    else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                     else
                     {
                         if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + transitionName +
@@ -1224,7 +1224,7 @@ namespace RandomizerLib
                         else if (infix[i] == "+") postfix.Add((-2, 0));
                         else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                         else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                        else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                        else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                         else
                         {
                             if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + waypoint +
@@ -1246,7 +1246,7 @@ namespace RandomizerLib
                         else if (infix[i] == "+") postfix.Add((-2, 0));
                         else if (infix[i] == "ESSENCECOUNT") postfix.Add((-3, 0));
                         else if (infix[i] == "GRUBCOUNT") postfix.Add((-4, 0));
-                        else if (infix[i] == "200ESSENCE") postfix.Add((-5, 0));
+                        else if (infix[i] == "ESSENCE200") postfix.Add((-5, 0));
                         else
                         {
                             if (!progressionBitMask.TryGetValue(infix[i], out (int, int) pair)) LogWarn("Error in logic sentence for: " + waypoint +

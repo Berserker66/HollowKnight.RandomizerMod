@@ -4608,7 +4608,7 @@
     <sceneName>RestingGrounds_05</sceneName>
     <doorName>right1</doorName>
     <areaName>Resting_Grounds</areaName>
-    <logic>RestingGrounds_05 + 200ESSENCE</logic>
+    <logic>RestingGrounds_05 + ESSENCE200</logic>
   </transition>
   <transition name="RestingGrounds_05[right2]">
     <sceneName>RestingGrounds_05</sceneName>

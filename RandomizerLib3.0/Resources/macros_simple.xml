@@ -1,0 +1,30 @@
+﻿<randomizer>
+  <!--Macros used in all modes-->
+  <macro name="SHADOWDASH">Mothwing_Cloak + Shade_Cloak</macro>
+  <macro name="CREST">City_Crest</macro>
+  <macro name="SIMPLE1">Simple_Key-Sly | Simple_Key-City | Simple_Key-Basin | Simple_Key-Lurker</macro>
+  <macro name="SIMPLE3">(Simple_Key-Sly + Simple_Key-City + Simple_Key-Basin) | (Simple_Key-Lurker + Simple_Key-City + Simple_Key-Basin) | (Simple_Key-Sly + Simple_Key-Lurker + Simple_Key-Basin) | (Simple_Key-Sly + Simple_Key-City + Simple_Key-Lurker)</macro>
+  <macro name="SIMPLE4">Simple_Key-Sly + Simple_Key-City + Simple_Key-Basin + Simple_Key-Lurker</macro>
+  <macro name="TRAM">Tram_Pass</macro>
+  <macro name="LANTERN">Lumafly_Lantern</macro>
+  <macro name="SHOPKEY">Shopkeeper's_Key</macro>
+  <macro name="ELEGANT">Elegant_Key</macro>
+  <macro name="LOVE">Love_Key</macro>
+  <macro name="BRAND">King's_Brand</macro>
+  <macro name="KINGSOUL">(Queen_Fragment + King_Fragment) | (Queen_Fragment + Void_Heart) | (King_Fragment + Void_Heart)</macro>
+  <macro name="VOIDHEART">Queen_Fragment + King_Fragment + Void_Heart</macro>
+  <macro name="BALDURS">FIREBALL | QUAKE | Grubberfly's_Elegy | Glowing_Womb | (DASH + Dash_Slash) | (MILDSKIPS + (Weaversong | (Spore_Shroom + (NOTCURSED | Focus)))) | ((Mark_of_Pride | Cyclone_Slash | DASH) + SPICYSKIPS)</macro>
+  <macro name="SHARPSHADOW">Sharp_Shadow + Mothwing_Cloak + Shade_Cloak</macro>
+  <macro name="DASHMASTER">Dashmaster + DASH</macro>
+  <macro name="INFECTED">(Lurien | Monomon | Herrah | Dreamer) + SPICYSKIPS</macro>
+  <macro name="DREAMER3">(Lurien + Monomon + Herrah) | (Dreamer + Monomon + Herrah) | (Lurien + Dreamer + Herrah) | (Lurien + Monomon + Dreamer)</macro>
+  <macro name="AWOKEN">Dream_Nail + Dream_Gate + Awoken_Dream_Nail</macro>
+  <macro name="AIRSTALL">FIREBALLSKIPS + (FIREBALL | SCREAM)</macro>
+  <macro name="TUNNEL">SPIKETUNNELS + DASH + (Dashmaster | FIREBALL | SCREAM)</macro>
+  <macro name="SKIPACID">CLAW + DASH + SUPERDASH + ACIDSKIPS</macro>
+  <macro name="MINIBOSS">FIREBALL | SCREAM | QUAKE | SPICYSKIPS</macro>
+  <macro name="AERIALMINIBOSS">((FIREBALL | SCREAM) + (DASH | MILDSKIPS)) | SPICYSKIPS</macro>
+  <macro name="BOSS">((Vengeful_Spirit + Shade_Soul) | (Desolate_Dive + Descending_Dark) | (Howling_Wraiths + Abyss_Shriek) | (FIREBALL + QUAKE) | (SCREAM + QUAKE) | (FIREBALL + SCREAM)) + (DASH | MILDSKIPS)</macro>
+  <macro name="ALLSTAGS">Crossroads_Stag + Greenpath_Stag + Queen's_Station_Stag + Queen's_Gardens_Stag + City_Storerooms_Stag + King's_Station_Stag + Resting_Grounds_Stag + Distant_Village_Stag + Hidden_Station_Stag</macro>
+  <macro name="LIFEBLOOD">Lifeblood_Heart | Lifeblood_Core | Joni's_Blessing</macro>
+</randomizer>

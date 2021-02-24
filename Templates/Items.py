@@ -1,10 +1,6 @@
 {{info}}
 
-import typing
-
-class HKItemData(typing.NamedTuple):
-    advancement: bool
-    id: int
+from Types import HKItemData
 
 item_table = \
 {{items|safe}}

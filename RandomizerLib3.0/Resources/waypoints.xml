@@ -276,7 +276,7 @@
     <areaLogic>Upper_Tram | (Lower_Resting_Grounds + (DASH | CLAW | WINGS | MILDSKIPS)) | RestingGrounds_02[top1] | RestingGrounds_05[right1] | (Resting_Grounds_Stag + Can_Stag)</areaLogic>
   </item>
   <item name="Spirits_Glade">
-    <itemLogic>200ESSENCE + Upper_Resting_Grounds</itemLogic>
+    <itemLogic>ESSENCE200 + Upper_Resting_Grounds</itemLogic>
     <areaLogic>RestingGrounds_08[left1]</areaLogic>
   </item>
   <item name="Lower_Resting_Grounds">
