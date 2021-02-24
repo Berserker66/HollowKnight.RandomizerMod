@@ -1,6 +1,6 @@
 {{info}}
 
-from Types import HKItemData
+from . import HKItemData
 
 item_table = \
 {{items|safe}}

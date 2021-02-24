@@ -9,4 +9,9 @@ def set_rules(world, player):
                                                            state.has('Herrah', player)
     {% for location, rule in conditions.items() %}
     set_rule(world.get_location("{{location}}", player), lambda state: {{rule}})
-{%- endfor %}
+    {%- endfor %}
+
+    # Events
+    {% for event, rule in waypoints.items() %}
+    set_rule(world.get_location("{{event}}", player), lambda state: {{rule}})
+    {%- endfor %}
