@@ -95,6 +95,7 @@
     <Compile Include="Actions\CreateNewShiny.cs" />
     <Compile Include="Actions\ChangeShinyIntoLifeblood.cs" />
     <Compile Include="Actions\ChangeShinyIntoSoul.cs" />
+    <Compile Include="Actions\ChangeGrimmkinReward.cs" />
     <Compile Include="BenchHandler.cs" />
     <Compile Include="Components\RecentItems.cs" />
     <Compile Include="LogHelper.cs" />
@@ -335,6 +336,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\ShopIcons\Lifeblood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ShopIcons\Flame.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\ShopIcons\Soul.png" />

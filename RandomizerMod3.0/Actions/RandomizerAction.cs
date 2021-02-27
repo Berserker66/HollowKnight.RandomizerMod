@@ -109,6 +109,13 @@ namespace RandomizerMod.Actions
                     oldItem.objectName = "Randomizer Chest Shiny";
                     oldItem.fsmName = "Shiny Control";
                     oldItem.type = ItemType.Charm;
+                } else if (oldItem.type == ItemType.Flame)
+                {
+                    // Even if the new item is also a flame, this action should still run in order to
+                    // guarantee that the player can't be locked out of getting it by upgrading their
+                    // Grimmchild.
+                    Actions.Add(new ChangeGrimmkinReward(oldItem.sceneName, oldItem.objectName, oldItem.fsmName, newItem.nameKey, newItem.shopSpriteKey, newItem.action, newItemName, location));
+                    continue;
                 }
 
                 // Dream nail needs a special case
@@ -360,6 +367,7 @@ namespace RandomizerMod.Actions
             orig(fsm);
 
             string scene = fsm.gameObject.scene.name;
+
             foreach (RandomizerAction action in Actions)
             {
                 if (action.Type != ActionType.PlayMakerFSM)

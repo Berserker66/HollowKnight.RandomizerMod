@@ -143,6 +143,7 @@ namespace RandomizerLib
                 }
                 else return false;
             }
+            if (startDef.sceneName == "Mines_35" && !RandomizerMod.Instance.Settings.EarlyGeo) return false;
             if (startDef.itemSafe) return true;
             return false;
         }
