@@ -2189,9 +2189,9 @@
     <objectName>Shiny Item</objectName>
     <fsmName>Shiny Control</fsmName>
     <replace>false</replace>
-    <itemLogic>Dirtmouth + Grimmchild + BOSS + 6FLAMES</itemLogic>
-    <areaLogic>Dirtmouth + Grimmchild + BOSS + 6FLAMES</areaLogic>
-    <roomLogic>Grimm_Main_Tent[left1] + Grimmchild + BOSS + 6FLAMES</roomLogic>
+    <itemLogic>Dirtmouth + Grimmchild + BOSS + FLAMES6</itemLogic>
+    <areaLogic>Dirtmouth + Grimmchild + BOSS + FLAMES6</areaLogic>
+    <roomLogic>Grimm_Main_Tent[left1] + Grimmchild + BOSS + FLAMES6</roomLogic>
     <type>Trinket</type>
     <action>Int</action>
     <pool>Notch</pool>
@@ -5388,9 +5388,9 @@
     <sceneName>Tutorial_01</sceneName>
     <objectName>Flamebearer Spawn</objectName>
     <fsmName>Spawn Control</fsmName>
-    <itemLogic>King's_Pass + Grimmchild + 3FLAMES + Dirtmouth</itemLogic>
-    <areaLogic>King's_Pass + Grimmchild + 3FLAMES + Dirtmouth</areaLogic>
-    <roomLogic>Tutorial_01 + Grimmchild + 3FLAMES + Grimm_Main_Tent[left1]</roomLogic>
+    <itemLogic>King's_Pass + Grimmchild + FLAMES3 + Dirtmouth</itemLogic>
+    <areaLogic>King's_Pass + Grimmchild + FLAMES3 + Dirtmouth</areaLogic>
+    <roomLogic>Tutorial_01 + Grimmchild + FLAMES3 + Grimm_Main_Tent[left1]</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>
@@ -5405,9 +5405,9 @@
     <sceneName>RestingGrounds_06</sceneName>
     <objectName>Flamebearer Spawn</objectName>
     <fsmName>Spawn Control</fsmName>
-    <itemLogic>Lower_Resting_Grounds + Grimmchild + 3FLAMES + Dirtmouth</itemLogic>
-    <areaLogic>Lower_Resting_Grounds + Grimmchild + 3FLAMES + Dirtmouth</areaLogic>
-    <roomLogic>(RestingGrounds_06[left1] | RestingGrounds_06[right1] | RestingGrounds_06[top1]) + Grimmchild + 3FLAMES + Grimm_Main_Tent[left1]</roomLogic>
+    <itemLogic>Lower_Resting_Grounds + Grimmchild + FLAMES3 + Dirtmouth</itemLogic>
+    <areaLogic>Lower_Resting_Grounds + Grimmchild + FLAMES3 + Dirtmouth</areaLogic>
+    <roomLogic>(RestingGrounds_06[left1] | RestingGrounds_06[right1] | RestingGrounds_06[top1]) + Grimmchild + FLAMES3 + Grimm_Main_Tent[left1]</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>
@@ -5422,9 +5422,9 @@
     <sceneName>Deepnest_East_03</sceneName>
     <objectName>Flamebearer Spawn</objectName>
     <fsmName>Spawn Control</fsmName>
-    <itemLogic>Central_Kingdom's_Edge + Grimmchild + 3FLAMES + Dirtmouth</itemLogic>
-    <areaLogic>Central_Kingdom's_Edge + Grimmchild + 3FLAMES + Dirtmouth</areaLogic>
-    <roomLogic>Deepnest_East_03 + Grimmchild + 3FLAMES + Grimm_Main_Tent[left1]</roomLogic>
+    <itemLogic>Central_Kingdom's_Edge + Grimmchild + FLAMES3 + Dirtmouth</itemLogic>
+    <areaLogic>Central_Kingdom's_Edge + Grimmchild + FLAMES3 + Dirtmouth</areaLogic>
+    <roomLogic>Deepnest_East_03 + Grimmchild + FLAMES3 + Grimm_Main_Tent[left1]</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>
@@ -5439,9 +5439,9 @@
     <sceneName>Fungus2_30</sceneName>
     <objectName>Flamebearer Spawn</objectName>
     <fsmName>Spawn Control</fsmName>
-    <itemLogic>Fungal_Core + Grimmchild + 6FLAMES + Dirtmouth + BOSS</itemLogic>
-    <areaLogic>Fungal_Core + Grimmchild + 6FLAMES + Dirtmouth + BOSS</areaLogic>
-    <roomLogic>Fungus2_30[top1] + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS</roomLogic>
+    <itemLogic>Fungal_Core + Grimmchild + FLAMES6 + Dirtmouth + BOSS</itemLogic>
+    <areaLogic>Fungal_Core + Grimmchild + FLAMES6 + Dirtmouth + BOSS</areaLogic>
+    <roomLogic>Fungus2_30[top1] + Grimmchild + FLAMES6 + Grimm_Main_Tent[left1] + BOSS</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>
@@ -5456,9 +5456,9 @@
     <sceneName>Abyss_02</sceneName>
     <objectName>Flamebearer Spawn</objectName>
     <fsmName>Spawn Control</fsmName>
-    <itemLogic>Upper_Basin + Grimmchild + 6FLAMES + Dirtmouth + BOSS</itemLogic>
-    <areaLogic>Upper_Basin + Grimmchild + 6FLAMES + Dirtmouth + BOSS</areaLogic>
-    <roomLogic>(Abyss_02[right1] | (Abyss_02[bot1] + (CLAW | WINGS))) + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS</roomLogic>
+    <itemLogic>Upper_Basin + Grimmchild + FLAMES6 + Dirtmouth + BOSS</itemLogic>
+    <areaLogic>Upper_Basin + Grimmchild + FLAMES6 + Dirtmouth + BOSS</areaLogic>
+    <roomLogic>(Abyss_02[right1] | (Abyss_02[bot1] + (CLAW | WINGS))) + Grimmchild + FLAMES6 + Grimm_Main_Tent[left1] + BOSS</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>
@@ -5473,9 +5473,9 @@
     <sceneName>Hive_03</sceneName>
     <objectName>Flamebearer Spawn</objectName>
     <fsmName>Spawn Control</fsmName>
-    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS))) + Grimmchild + 6FLAMES + Dirtmouth + BOSS</itemLogic>
-    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS))) + Grimmchild + 6FLAMES + Dirtmouth + BOSS</areaLogic>
-    <roomLogic>(Hive_03[right1] | (Hive_03[bot1] + (CLAW | WINGS | (DASH + MILDSKIPS)))) + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS</roomLogic>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS))) + Grimmchild + FLAMES6 + Dirtmouth + BOSS</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS))) + Grimmchild + FLAMES6 + Dirtmouth + BOSS</areaLogic>
+    <roomLogic>(Hive_03[right1] | (Hive_03[bot1] + (CLAW | WINGS | (DASH + MILDSKIPS)))) + Grimmchild + FLAMES6 + Grimm_Main_Tent[left1] + BOSS</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>
@@ -5490,9 +5490,9 @@
     <sceneName>Room_spider_small</sceneName>
     <objectName>Brumm Torch NPC</objectName>
     <fsmName>Conversation Control</fsmName>
-    <itemLogic>Distant_Village + Grimmchild + 6FLAMES + Dirtmouth + BOSS</itemLogic>
-    <areaLogic>(Deepnest_10[door1] | (Deepnest_10[right2] + (DASH | CLAW | WINGS | AIRSTALL)) | (Distant_Village_Stag + Can_Stag)) + Grimmchild + 6FLAMES + Dirtmouth + BOSS</areaLogic>
-    <roomLogic>Room_spider_small[left1] + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS</roomLogic>
+    <itemLogic>Distant_Village + Grimmchild + FLAMES6 + Dirtmouth + BOSS</itemLogic>
+    <areaLogic>(Deepnest_10[door1] | (Deepnest_10[right2] + (DASH | CLAW | WINGS | AIRSTALL)) | (Distant_Village_Stag + Can_Stag)) + Grimmchild + FLAMES6 + Dirtmouth + BOSS</areaLogic>
+    <roomLogic>Room_spider_small[left1] + Grimmchild + FLAMES6 + Grimm_Main_Tent[left1] + BOSS</roomLogic>
     <type>Flame</type>
     <action>Int</action>
     <pool>Flame</pool>

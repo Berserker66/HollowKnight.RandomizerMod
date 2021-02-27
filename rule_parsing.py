@@ -44,6 +44,11 @@ class Grubs(RuleSegment):
     def state(self):
         return f'state.has_grubs(player, {self.condition})'
 
+class Flames(RuleSegment):
+    @property
+    def state(self):
+        return f'state.has_flames(player, {self.condition})'
+
 class Waypoint(RuleSegment):
 
     @property
@@ -85,6 +90,8 @@ def create_parser(macros, game_options, items, waypoints):
     eval_locals["ESSENCE200"] = Essence(200)
     eval_locals["ESSENCECOUNT"] = Essence(300)
     eval_locals["GRUBCOUNT"] = Grubs(5)
+    eval_locals["FLAMES6"] = Flames(6)
+    eval_locals["FLAMES3"] = Flames(3)
 
 
 
